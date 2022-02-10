@@ -1,0 +1,61 @@
+ #sidenav {
+     width: 17rem;
+     height: 100vh;
+     text-align: center;
+     flex-direction: column;
+     padding-left: 0;
+     padding-right: 0;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+ }
+
+ #sidenav .navbar-brand {
+     display: flex;
+     margin: auto auto 0;
+     padding: 0.5rem;
+ }
+
+ .img-profile {
+     max-width: 10rem;
+     max-height: 10rem;
+     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+ }
+
+ #sideNav .navbar-collapse {
+     display: flex;
+     align-items: flex-start;
+     flex-grow: 0;
+     width: 100%;
+     margin-bottom: auto;
+ }
+
+ .button {
+     text-align: center;
+
+ }
+
+ #sideNav .navbar-collapse .navbar-nav {
+     flex-direction: column;
+     width: 100%;
+ }
+
+ #sideNav .navbar-collapse .navbar-nav .nav-item {
+     display: block;
+ }
+
+ #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+     display: block;
+ }
+
+ .dev-icons {
+     font-size: 3rem;
+ }
+
+ .subheading {
+     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+     text-transform: uppercase;
+     font-weight: 500;
+     font-size: 1.5rem;
+ }
